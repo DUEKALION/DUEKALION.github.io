@@ -1,0 +1,351 @@
+.nheader {
+  font-size: 30px;
+  line-height: 1;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-family: "Jost", sans-serif;
+  color: #fff;
+}
+
+.nl {
+  color: white;
+}
+
+.activenl {
+  color: #2e63be;
+}
+
+.nav-item {
+  padding: 10px;
+}
+
+.nbs {
+  width: 25px;
+  height: 5px;
+  margin: 4px;
+  background-color: white;
+}
+
+.imdecor {
+  width: 50%;
+}
+
+.hau {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+  color: #37517e;
+}
+
+.auAbout {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  position: relative;
+  color: #37517e;
+}
+
+.t1 {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.h1sub {
+  box-sizing: border-box;
+  font-weight: 400;
+  font-size: 34px;
+  color: #37517e;
+}
+
+.p1t {
+  font-size: 15px;
+  color: #848484;
+  box-sizing: border-box;
+}
+
+.accordion-item {
+  margin: 10px;
+}
+
+.h3m {
+  font-weight: 700;
+  font-size: 32px;
+  color: #37517e;
+  font-family: "Poppins", sans-serif;
+}
+
+.h14artc {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #37517e;
+}
+
+.ra4 {
+  padding: 60px 0px;
+}
+
+.pa4 {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  box-sizing: border-box;
+}
+
+.nxtxt {
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 24px;
+  font-family: "Jost", sans-serif;
+  color: #444444;
+}
+
+.bxa5 {
+  color: white;
+}
+
+.h4cta {
+  color: #fff;
+}
+
+.pcta {
+  color: #fff;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.r6 {
+  height: 400px;
+  width: 100%;
+}
+
+/* Responsive Grid Image */
+.imgRes {
+  width: 100%;
+  margin: 10px;
+}
+
+.activeColorButt {
+  background-color: #5151f5;
+  color: #fff;
+}
+
+.txtmagnam {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+}
+
+.chdtxt {
+  font-weight: 700;
+  margin-bottom: 5px;
+  font-size: 20px;
+  color: #37517e;
+}
+
+.txt11 {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+.txt12 {
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+}
+
+.h6txt {
+  font-weight: 500;
+  margin-bottom: 15px;
+  font-size: 20px;
+  color: #37517e;
+  font-family: "Jost", sans-serif;
+}
+
+sup {
+  color: #37517e;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+}
+
+.prtxt {
+  font-size: 48px;
+  color: #37517e;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+}
+
+.pmtxt {
+  color: #47b2e4;
+  font-size: 18px;
+  display: block;
+  font-weight: 400;
+  font-family: "Jost", sans-serif;
+}
+
+.prlist {
+  padding: 20px 0;
+  list-style: none;
+  color: #999;
+  text-align: left;
+  line-height: 20px;
+}
+
+.prlist li {
+  font-size: 1rem;
+  font-weight: 400;
+  padding: 10px 0 10px 30px;
+}
+
+.pricebox2 {
+  border-top: 4px solid #47b2e4;
+}
+
+.hdcttxt {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #37517e;
+}
+
+.pcttxt {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #6182ba;
+}
+
+.h4fttxt {
+  font-size: 24px;
+  margin: 0 0 20px 0;
+  padding: 0;
+  line-height: 1;
+  font-weight: 600;
+  color: #37517e;
+}
+
+.pfttxt {
+  text-align: center;
+  font-size: 15px;
+  color: #444444;
+}
+
+.inputform {
+  border-top-left-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+
+/* footer styling */
+.ftsth6 {
+  font-size: 16px;
+  font-weight: bold;
+  color: #37517e;
+  position: relative;
+  padding-bottom: 12px;
+}
+
+.ftsth4 {
+  font-size: 28px;
+  margin: 0 0 10px 0;
+  padding: 2px 0 2px 0;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #37517e;
+}
+
+.p1st {
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 0;
+  font-family: "Jost", sans-serif;
+  color: #5e5e5e;
+}
+
+.llws {
+  color: #777777;
+  font-size: 14px;
+}
+
+.llwslist {
+  list-style: none;
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  line-height: 2.5;
+}
+
+.socialnet {
+  color: #444444;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.ftlist {
+  list-style: none;
+  margin: 0;
+  padding-left: 0;
+  line-height: 2.5;
+}
+
+.ftlistchild {
+  color: #777777;
+  font-size: 14px;
+}
+
+.rlast {
+  padding: 30px;
+  color: #fff;
+}
+
+.rlastext {
+  font-size: 14px;
+}
+
+/* About Us list styling */
+.aboutUsList {
+  list-style: none;
+}
+
+/* ACCORDION Button styling */
+.accordion-button span {
+  color: #47b2e4;
+  font-weight: 600;
+  font-size: 18px;
+  padding-right: 10px;
+}
+
+/*  */
+.italic-h3m {
+  font-style: italic !important;
+  font-family: "Open Sans", sans-serif;
+  color: #444444;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+/* progress bar text spacing */
+.progbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.spanprogbar {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #37517e;
+}

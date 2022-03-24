@@ -1,0 +1,304 @@
+@media screen and (max-width: 992px) {
+    .nnbck {
+        background-color: #fff;
+        border-radius: 12px;
+        margin-top: 10px;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .nll {
+        color: #37517e;
+    }
+    .ig {
+        margin-top: 150px;
+        height: auto;
+        width: 75%;
+    }
+    .bs {
+        font-size: 28px;
+        line-height: 36px;
+        text-align: center;
+        margin: 0 0 10px 0;
+        font-size: 28px;
+        font-weight: 700;
+        line-height: 36px;
+        color: #fff;
+    }
+    .tbs {
+        text-align: center;
+        font-size: 18px;
+        line-height: 24px;
+        margin-bottom: 30px;
+        color: rgba(255, 255, 255, 0.6);
+    }
+    .fbox {
+        display: flex;
+        justify-content: center;
+    }
+    .nxbox {
+        margin: 10px;
+        width: 100%;
+    }
+    .r2 {
+        margin-top: 0;
+    }
+    .bcta {
+        margin-bottom: 120px;
+    }
+    .r6 {
+        padding: 70px 5px;
+        text-align: center;
+    }
+    .cont7 {
+        margin: 10px 0px;
+        padding: 5px 0px;
+    }
+    /* Card boxes of board of directors */
+    .cbox1 {
+        max-width: 100%;
+        height: auto;
+        padding: 30px;
+        background-color: #fff;
+        margin: 10px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 0 0 #000;
+    }
+    .imgbox {
+        height: 80px;
+        width: 80px;
+        border-radius: 50% 50%;
+        display: inline-flexbox;
+        float: left;
+    }
+    .txtbox {
+        max-width: 60%;
+        display: inline-flexbox;
+        float: left;
+        margin-left: 30px;
+    }
+    .article6 {
+        padding: 30px 0px;
+    }
+    .pricebox1,
+    .pricebox2,
+    .pricebox3 {
+        margin: 15px;
+        padding: 50px 30px;
+        border-radius: 5px;
+        height: auto;
+        width: 100%;
+        box-shadow: 0px 0px 15px 0 rgb(236, 229, 229);
+    }
+    .ctbox1 {
+        height: auto;
+        width: 100%;
+        margin: 15px;
+        box-shadow: 0px 0px 15px 0 rgb(230, 223, 223);
+        padding: 30px 10px;
+        border-top: 3px solid #47b2e4;
+        border-bottom: 3px solid #47b2e4;
+        box-sizing: border-box;
+    }
+    .ctbox2 {
+        height: auto;
+        width: 100%;
+        margin: 15px;
+        box-shadow: 0px 0px 15px 0 rgb(230, 223, 223);
+        padding: 30px 10px;
+        border-top: 3px solid #47b2e4;
+        border-bottom: 3px solid #47b2e4;
+        box-sizing: border-box;
+    }
+    /* search Box */
+    .artlst {
+        padding: 40px 5px;
+        background: #f3f5fa;
+    }
+    footer {
+        padding: 50px 5px;
+    }
+    .rlast {
+        justify-content: center;
+        text-align: center;
+    }
+    /* Get started button */
+    .nl2 {
+        color: white;
+        height: 50px;
+        width: 150px;
+    }
+}
+
+
+/* Media Queries to be applied at 700px screen to 992px screen */
+
+@media screen and (min-width: 700px) and (max-width: 992px) {
+    .bs {
+        margin: 0 0 10px 0;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 56px;
+        color: #fff;
+    }
+    .tbs {
+        color: rgba(255, 255, 255, 0.6);
+        margin-bottom: 50px;
+        font-size: 24px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    /* frontpage image */
+    .ig {
+        position: relative;
+        width: 100%;
+        height: 100%;
+        animation-name: anime;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+        animation-timing-function: cubic-bezier(5, 5, 5, 5);
+    }
+    @keyframes anime {
+        0% {
+            top: 0px;
+        }
+        100% {
+            top: 15px;
+        }
+    }
+    .nl2 {
+        color: white;
+        height: 50px;
+        width: 150px;
+    }
+    /* styling text */
+    .bs {
+        margin-top: 20px;
+        font-size: 48px;
+        font-weight: 700;
+        line-height: 56px;
+        color: #fff;
+    }
+    .tbs {
+        color: rgba(255, 255, 255, 0.6);
+        margin-bottom: 50px;
+        font-size: 24px;
+    }
+    .linkbutt {
+        font-size: 25px;
+        color: white;
+        margin: 5px;
+    }
+    .fbox {
+        padding: 0;
+    }
+    .nxbox {
+        margin: 10px;
+        width: 23%;
+    }
+    .r2 {
+        margin-top: 75px;
+        height: 400px;
+    }
+    nav {
+        padding-left: 110px;
+    }
+    /* Card boxes of board of directors */
+    .cbox1 {
+        max-width: 47%;
+        height: auto;
+        padding: 30px;
+        background-color: #fff;
+        margin: 10px;
+        border-radius: 10px;
+        box-shadow: 0px 0px 0 0 #000;
+    }
+    .imgbox {
+        height: 150px;
+        width: 150px;
+        border-radius: 50% 50%;
+        display: inline-flexbox;
+        float: left;
+    }
+    .txtbox {
+        max-width: 60%;
+        display: inline-flexbox;
+        float: left;
+        margin-left: 30px;
+    }
+    .article6 {
+        padding: 50px;
+    }
+    .pricebox1,
+    .pricebox2,
+    .pricebox3 {
+        margin: 15px;
+        padding: 50px 30px;
+        border-radius: 5px;
+        height: auto;
+        width: 30%;
+        box-shadow: 0px 0px 15px 0 rgb(230, 223, 223);
+    }
+    .ctbox1 {
+        height: auto;
+        width: 30%;
+        margin: 10px;
+        box-shadow: 0px 0px 15px 0 rgb(230, 223, 223);
+        padding: 30px 10px;
+        border-top: 3px solid #47b2e4;
+        border-bottom: 3px solid #47b2e4;
+    }
+    .ctbox2 {
+        height: auto;
+        width: 50%;
+        margin: 10px;
+        box-shadow: 0px 0px 15px 0 rgb(230, 223, 223);
+        padding: 30px 10px;
+        border-top: 3px solid #47b2e4;
+        border-bottom: 3px solid #47b2e4;
+    }
+    /* search Box */
+    .artlst {
+        padding: 80px;
+        background: #f3f5fa;
+    }
+    footer {
+        padding: 50px 50px;
+    }
+}
+
+
+/* Call To Action Article */
+
+#a6 {
+    background: linear-gradient(rgba(40, 58, 90, 0.9), rgba(40, 58, 90, 0.9)), url("assets/img/cta-bg.jpg") fixed center center;
+    background-size: cover;
+}
+
+.h4cta {
+    color: #fff;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.pcta {
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+.bu {
+    display: inline-block;
+}
+
+.nav-colored {
+    background-color: #37517e;
+}
+
+.nav-transparent {
+    background: rgba(40, 58, 90, 0.9);
+}
+
+.active {
+    color: rgb(73, 73, 243);
+}
